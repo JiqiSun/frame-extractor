@@ -1,0 +1,69 @@
+# ====================
+# Python
+# ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.eggs/
+*.whl
+
+# Logs
+*.log
+
+# ====================
+# Node & Vite
+# ====================
+# Dependency directories
+node_modules/
+frontend/node_modules/
+
+# Vite / Rollup outputs
+dist/
+frontend/dist/
+.vite/
+
+# Optional npm cache
+.npm/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*.local
+
+# ====================
+# Output (extracted frames)
+# ====================
+output/
+
+# ====================
+# Editor / OS files
+# ====================
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# IntelliJ
+.idea/
+
+# Docker Compose override (if you keep one locally)
+docker-compose.override.yml
