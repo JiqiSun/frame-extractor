@@ -6,7 +6,7 @@ $ docker run --rm -p 8080:80 scene-extractor
 
 # 3. Open your browser → http://localhost:8080
 
-# 4  Launch FastAPI with hot-reload
+# Launch FastAPI with hot-reload
 uvicorn main:app --reload --port 8000
 
 # Launch frontend
